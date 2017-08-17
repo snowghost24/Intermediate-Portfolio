@@ -1,0 +1,26 @@
+
+/* targets nav bar at the bottom */
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 120px;
+    width: 100%;
+    z-index: 20;
+    transition: 0.35s all ease;
+}
+
+nav ul {
+    padding: 2.2rem;
+    transition: 0.35s all ease;
+}
+
+nav ul li {
+    display:inline-block;
+    padding: 0 1rem;
+    
+}
+
+nav ul li a {
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+
+}
