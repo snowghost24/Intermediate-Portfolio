@@ -1,16 +1,32 @@
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(194, 38, 41, 1.00)), url("../images/constellation.jpg");
+    position: fixed;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.name-title {
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 130px;
+    margin-top: 20px;
+    }
+
+
+
 
 /* targets nav bar at the bottom */
 nav {
     background-color: rgba(0, 0, 0, 0.3);
     min-height: 120px;
-    width: 100%;
-    z-index: 20;
-    transition: 0.35s all ease;
 }
-
+//TODO:fix t
 nav ul {
     padding: 2.2rem;
-    transition: 0.35s all ease;
 }
 
 nav ul li {
@@ -24,3 +40,12 @@ nav ul li a {
     letter-spacing: 0.2rem;
 
 }
+
+.icons-row {
+    border-bottom: 4px solid grey;
+}
+
+
+
+
+
