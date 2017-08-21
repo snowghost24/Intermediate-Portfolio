@@ -1,5 +1,11 @@
 .background {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(194, 38, 41, 1.00)), url("../images/constellation.jpg");
+    background: linear-gradient( #BE5615, rgba(99, 95, 95, 0.2)), url("../images/roomimg.jpg");
+    background-repeat: no-repeat center fixed;;
+    /* #2D4488, */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: fixed;
     position: absolute;
     top: 0;
@@ -13,37 +19,46 @@
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     font-size: 130px;
-    margin-top: 20px;
+    margin-top: 20px
     }
 
-
-
-
 /* targets nav bar at the bottom */
-nav {
-    background-color: rgba(0, 0, 0, 0.3);
-    min-height: 120px;
-}
-//TODO:fix t
-nav ul {
-    padding: 2.2rem;
+
+.icons-row {
+    border-bottom: 2px solid #5F3A3A;
 }
 
-nav ul li {
-    display:inline-block;
-    padding: 0 1rem;
+.img-circle {
+    border-radius: 50%;
+    /* -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); */
+}
+
+.text-centering {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.img-div {
+    border-bottom: 2px solid #5F3A3A;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.nav1{
+    margin-top: 30px;
     
 }
 
-nav ul li a {
-    font-weight: 600;
-    letter-spacing: 0.2rem;
-
+a {
+    color: black;
 }
 
-.icons-row {
-    border-bottom: 4px solid grey;
+.icon-color {
+    padding: 8px;
 }
+
 
 
 
